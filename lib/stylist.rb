@@ -1,4 +1,4 @@
-# require "pry"
+ #require "pry"
 
 class Stylist < ActiveRecord::Base
 

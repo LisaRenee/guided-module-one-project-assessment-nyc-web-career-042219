@@ -6,6 +6,6 @@ ActiveRecord::Base.establish_connection(
   database: 'db/development.db'
 )
 
-ActiveRecord::Base.logger.level = 1
+ActiveRecord::Base.logger = false
 
 require_all 'lib'
